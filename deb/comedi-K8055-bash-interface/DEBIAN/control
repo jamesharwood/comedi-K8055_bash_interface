@@ -1,5 +1,5 @@
 Package: comedi-k8055-bash-interface
-Version: 0.31
+Version: 0.32
 Maintainer: James.Harwood@gmail.com
 Architecture: i386
 Description: Command line utilities to read/write Velleman k8055 cards from bash using comedi kernel drivers.
