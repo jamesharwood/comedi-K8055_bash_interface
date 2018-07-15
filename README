@@ -1,0 +1,17 @@
+A kernel with comedi and VMK80xx modules must be used (Most recent kernels 3.X will 
+have these by default).
+
+To build/install on Debian based systems:
+apt-get install libcomedi-dev libcomedi0
+./make.sh
+cd deb
+./make_deb.sh
+dpkg -i comedi-K8055-bash-interface
+
+All program files are installed to /usr/local/bin
+
+Run /usr/local/bin/k8055-help for descriptions of programs and usage.
+
+Run programs as root.
+
+09/07/2018 James Harwood
