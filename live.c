@@ -66,6 +66,7 @@ int main(int argc,char *argv[])
 	}else{
 		printf(argv[1]);			
 	}	
+	printf(" ");
 	printf("%4.2f",code_version);
 	printf(" status:\n\n");
 	printf("    DIGITAL INPUTS 1 2 3 4 5\n");
