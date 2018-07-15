@@ -3,12 +3,12 @@ Simple bash command line utilities to read/write K8055 cards using comedi kernel
 
 A kernel with comedi and VMK80xx modules must be used (Most recent Debian 3.X kernels will have these by default).
 
-To build/install on Debian based systems:
-apt-get install libcomedi-dev libcomedi0
-./make.sh
-cd deb
-./make_deb.sh
-dpkg -i comedi-K8055-bash-interface
+To build/install on Debian based systems:<br>
+apt-get install libcomedi-dev libcomedi0<br>
+./make.sh<br>
+cd deb<br>
+./make_deb.sh<br>
+dpkg -i comedi-K8055-bash-interface<br>
 
 A precompiled .deb file is also included in the deb directory if you dont want to compile from source.
 
