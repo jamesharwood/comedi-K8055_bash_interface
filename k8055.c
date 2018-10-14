@@ -27,10 +27,9 @@ int main(int argc,char *argv[])
 	// for k8055_read_analog
 	printf("PROGRAM: 	/usr/local/bin/k8055_read_analog\n");
 	printf("DESCRIPTION:	Outputs reading for each analog input seperated by a space.\n");
-	printf("		Raw ADC range is 0 to 255.\n");	
-	printf("		Voltage reading range on a factory board is 0 to 5 volts.\n");	
+	printf("		ADC range is 0 to 255.\n");
 	printf("		Output format is\n");
-	printf("			<A1 RAW ADC> <A2 RAW ADC> <A1 MILLIVOLTS> <A2 MILLIVOLTS> <A1 VOLTS> <A2 VOLTS>\n");
+	printf("			<A1 ADC> <A2 ADC> \n");
 	printf("\n");	
 	// for k8055_read_counters
 	printf("PROGRAM:	/usr/local/bin/k8055_read_counters\n");
