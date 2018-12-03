@@ -1,5 +1,6 @@
 Package: comedi-k8055-bash-interface
-Version: 0.35
+Version: 0.41
 Maintainer: James Harwood
-Architecture: i386
+Architecture: amd64
+Depends: libcomedi0 | libcomedi-dev
 Description: Command line utilities to read/write Velleman k8055 cards from bash using comedi kernel drivers. https://github.com/jamesharwood/comedi-K8055_bash_interface
